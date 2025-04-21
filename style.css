@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-image: url('fond-marbre.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f9f9f9;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    color: gold;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    margin: 0 10px;
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rdv-btn {
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.presentation {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.galerie h2 {
+    color: gold;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.photos img {
+    width: 30%;
+    border-radius: 8px;
+    border: 2px solid gold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #ccc;
+}
