@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: gold;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.rdv-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.presentation, .infos, .galerie {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.galerie img {
+    width: 30%;
+    margin: 1%;
+    border: 2px solid #1a1a1a;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    color: gold;
+}
