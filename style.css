@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fdfdfd;
+}
+
+.encadre {
+    border: 8px solid gold;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+header {
+    text-align: center;
+    color: gold;
+}
+
+header .couronne {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+    margin: 0 10px;
+}
+
+nav .dot {
+    color: gold;
+    margin: 0 5px;
+}
+
+.presentation {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 1.7em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: 2px solid gold;
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 0;
+}
+
+.galerie {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.galerie h2 {
+    font-size: 2em;
+    color: gold;
+}
+
+.photos {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #ddd;
+    font-size: 0.9em;
+}
